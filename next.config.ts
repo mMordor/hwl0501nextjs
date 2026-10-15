@@ -2,6 +2,11 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  output: "export",
+  basePath: "/hwl0501nextjs",
+  images: {
+    unoptimized: true,
+  },
   experimental: {
     agentFeedback: true,
   },
